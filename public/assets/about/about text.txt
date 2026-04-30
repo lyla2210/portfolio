@@ -1,0 +1,54 @@
+Lyla Liang | UI&UX / PM /AI-Native Builder
+
+拥有 2 年 UI/UX 设计经验的复合型 Builder。我主张意图驱动的设计哲学，擅长利用 AI 原生工作流将复杂的业务逻辑转化为高感知的数字产品。
+Vibecoding时代的到来对我而言，AI 是执行的杠杆，是解决我和业务之间的技术桥梁，而我的核心价值在于定义那份“意图”的深度与逻辑
+
+
+标签：技术与 AI 协同、 产品与用户思维、设计审美与功能平衡
+
+
+Get in touch
+/联系方式
+
+AI-Native Workflow 
+/ AI 原生工作流
+
+PHASE 01: IDEATION (ChatGPT & Gemini& Claude)
+通过多模型对话碰撞灵感，进行产品需求定义（PRD）与核心逻辑构思。
+
+PHASE 02: ARCHITECTURE (Figma)
+在 Figma 中构建视觉系统与交互组件库，确立设计调性。
+
+PHASE 03: VIBE CODING (Cursor & Lovable & Codex&Claude code)
+利用 AI 原生开发环境将设计转化为代码，实现业务逻辑并进行实时端侧调试。
+
+PHASE 04: DEPLOYMENT (GitHub & vercel)
+通过 GitHub 进行版本控制与自动化流水线部署，完成产品的闭环交付。
+
+
+
+
+skills/
+技能矩阵
+
+设计/Design: UI/UX,用户调研，设计规范/系统
+产品/Product:PRD 文档编写, 用户心理，市场策略
+AI原生/AI-Native:Vibe Coding
+我所使用的部分工具/Tools: Cursor, Lovable, GitHub, Claude, ChatGPT, Gemini
+
+what can i do in this fast changing world?
+/ 在这个瞬息万变的世界里，我能做些什么？
+
+BUILD｜DEFINE｜EVOLVE
+
+核心定位：从“设计者”到“建造者”
+从“设计像素”转向“架构意图”。在无限生成的原型世界里，我的价值在于定义正确的问题，并编排最优的逻辑。
+
+技术态度：驾驭 AI 而非被替代
+拥抱 AI 原生工作流。我不只是在使用工具，而是在构建反馈闭环。通过弥合人类共情与算法算力之间的鸿沟，我将瞬时的“氛围感”转化为坚实的数字现实。
+
+审美立场：数字原生与人类温度
+AI从众多训练数据取平均值终会走向平庸，而人类决策和指引提供的是想法迸发，我提供的是审美，而AI恰恰给我省去了技术难度，让我最快验证MVP
+
+终极行动：持续迭代，保持输出
+保持流动，持续建造，保持学习。
