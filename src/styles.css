@@ -965,51 +965,48 @@ a {
 
   .home-stage {
     min-height: 100vh;
-    padding: 128px 26px 72px;
+    padding: 124px 26px 72px;
     overflow: hidden;
   }
 
   .home-top-meta {
-    position: static;
-    margin: 0 0 24px;
-    justify-items: end;
-    font-size: 13px;
+    display: none;
   }
 
   .hero-title {
+    max-width: 322px;
     font-size: 58px;
-    line-height: 1.14;
+    line-height: 1.08;
     letter-spacing: -0.05em;
-    max-width: none;
   }
 
   .tag-cn {
-    font-size: 42px;
-    line-height: 1.04;
+    font-size: 36px;
+    line-height: 1.02;
   }
 
   .tag-a {
     left: 24px;
-    top: 51%;
+    top: 412px;
     right: auto;
   }
 
   .tag-d {
-    left: 48px;
-    top: 60%;
+    left: 56px;
+    top: 500px;
     right: auto;
   }
 
   .tag-b {
-    left: 118px;
-    top: 70%;
+    left: 94px;
+    top: 586px;
     right: auto;
   }
 
   .tag-c {
-    left: 152px;
+    left: 134px;
     right: auto;
-    top: 80%;
+    top: 666px;
   }
 
   .home-meta {
@@ -1044,10 +1041,10 @@ a {
   .scroll-tip {
     left: 52px;
     right: 20px;
-    bottom: 82px;
+    bottom: 92px;
     transform: none;
     color: #2a64f6;
-    font-size: 16px;
+    font-size: 15px;
     white-space: nowrap;
     animation: none;
   }
