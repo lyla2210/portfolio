@@ -190,6 +190,10 @@ a {
   animation: scroll-blink 1.8s ease-in-out infinite;
 }
 
+.scroll-tip-mobile {
+  display: none;
+}
+
 .liquid {
   position: fixed;
   inset: 0;
@@ -303,7 +307,7 @@ a {
 .projects-drop-fill {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, #68ff74 0 25%, #ff98ee 25% 50%, #f9ff52 50% 75%, #7edaff 75% 100%);
+  background: #307fff;
   animation: project-drop 0.32s cubic-bezier(0.22, 1, 0.36, 1) both;
   will-change: transform;
 }
@@ -963,25 +967,6 @@ a {
 @media (max-width: 640px) {
   .nav-shell {
     top: 28px;
-    left: 16px;
-    right: 16px;
-    width: calc(100% - 32px);
-    padding: 12px 16px;
-  }
-
-  .nav {
-    justify-content: space-between;
-    gap: 0;
-    font-size: 24px;
-  }
-
-  .home-stage {
-    min-height: 100vh;
-    padding: 120px 26px 72px;
-    overflow: hidden;
-  }
-
-  .nav-shell-home {
     left: 26px;
     right: auto;
     width: auto;
@@ -991,9 +976,16 @@ a {
     box-shadow: none;
   }
 
-  .nav-shell-home .nav {
+  .nav {
     justify-content: flex-start;
     gap: 36px;
+    font-size: 24px;
+  }
+
+  .home-stage {
+    min-height: 100vh;
+    padding: 120px 26px 72px;
+    overflow: hidden;
   }
 
   .home-top-meta {
@@ -1010,23 +1002,27 @@ a {
   .tag-cn {
     font-size: 34px;
     line-height: 1.02;
+    text-align: center;
   }
 
   .tag-a {
     left: 26px;
     top: 418px;
+    width: 250px;
     right: auto;
   }
 
   .tag-d {
     left: 36px;
     top: 505px;
+    width: 286px;
     right: auto;
   }
 
   .tag-b {
     left: 86px;
     top: 591px;
+    width: 208px;
     right: auto;
   }
 
@@ -1034,6 +1030,7 @@ a {
     left: 114px;
     right: auto;
     top: 669px;
+    width: 226px;
   }
 
   .home-meta {
@@ -1054,7 +1051,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-size: 10px;
     white-space: nowrap;
   }
@@ -1071,11 +1068,19 @@ a {
 
   .scroll-tip {
     left: 50%;
-    bottom: 68px;
+    bottom: 76px;
     transform: translateX(-50%);
     color: #2a64f6;
-    font-size: 15px;
+    font-size: 12px;
     white-space: nowrap;
+  }
+
+  .scroll-tip-desktop {
+    display: none;
+  }
+
+  .scroll-tip-mobile {
+    display: inline;
   }
 
   .projects-stage {
