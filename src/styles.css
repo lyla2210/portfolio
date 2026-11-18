@@ -400,16 +400,28 @@ a {
 .detail {
   min-height: 100vh;
   background: #fff;
-  padding: 42px 70px 44px;
+  padding: 78px 70px 44px;
 }
 
 .back {
-  display: block;
-  width: calc(100vw - 140px);
-  max-width: 1280px;
-  margin: 0 auto 8px;
+  position: fixed;
+  top: 28px;
+  left: 70px;
+  z-index: 40;
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  backdrop-filter: blur(8px);
   text-align: left;
   font-size: 18px;
+  line-height: 1;
+  box-shadow: 0 8px 24px rgba(17, 17, 17, 0.08);
 }
 
 .zoom-fab {
@@ -938,7 +950,13 @@ a {
   }
 
   .detail {
-    padding: 16px 24px 44px;
+    padding: 72px 24px 44px;
+  }
+
+  .back {
+    top: 18px;
+    left: 24px;
+    font-size: 16px;
   }
 
   .detail-wrap {
@@ -1165,17 +1183,19 @@ a {
   }
 
   .detail {
-    padding: 34px 24px 44px;
+    padding: 72px 24px 44px;
   }
 
-  .back,
   .detail-wrap {
     width: 100%;
     max-width: none;
   }
 
   .back {
-    font-size: 16px;
+    top: 16px;
+    left: 16px;
+    font-size: 15px;
+    padding: 7px 12px;
   }
 
   .detail-head {
