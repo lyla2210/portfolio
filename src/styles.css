@@ -544,12 +544,16 @@ a {
   width: 100%;
   height: auto;
   display: block;
+  min-height: 240px;
+  background: #f3f3f3;
 }
 
 .image-flow img,
 .image-flow video {
   width: 100%;
   height: auto;
+  min-height: 240px;
+  background: #f3f3f3;
 }
 
 .reflection {
